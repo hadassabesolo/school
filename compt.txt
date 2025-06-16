@@ -1,0 +1,27 @@
+
+<div class="carte">
+                    <div class="compt">
+                        <img src="toph/WhatsApp Image 2025-05-21 à 23.18.28_60f3bf57.jpg"
+                        width="350" heith="450">
+                     </div>
+                     
+                    <div class="info">
+                    <img src="toph/WhatsApp Image 2025-05-21 à 23.18.28_60f3bf57.jpg" width="80" heith="100">
+                    <strong> Votre noms :</strong> Fanny Besolo</div>
+                    <div class="info"><strong>Votre email :</strong> fanny28@gmail.com</div> <hr>
+
+                    <div class="info">
+                    <img src="toph/WhatsApp Image 2025-05-21 à 23.18.28_60f3bf57.jpg" width="80" heith="100">
+                    <strong>Votre enfant :</strong> josue yave</div>
+
+                    <div class="info"><strong>Sa classe :</strong> 5ème SC\A</div>
+                    <div class="info"><strong>Ecole:</strong> Collège Sainte trinite</div>
+                    <div class="info"><strong> Années Scolaire:</strong> 2024_2025</div><hr>
+
+                    
+                    <div class="info"><strong>heure et date de votre entré:</strong> 09-06-25 à  17:35:28</div>
+                    <button><a href="espace parent.html">espace parent
+                    <span class="cloche">&#128276;</span>
+                    </a></button>
+
+            </div>

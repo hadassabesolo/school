@@ -1,0 +1,146 @@
+
+
+/* pour que le style s'adapte au moble */
+.menu-toggle{
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+
+}
+
+nav ul{
+  list-style: none;
+}
+
+@media(max-width: 758px){
+
+  nav {
+    display: none;
+    width: 100%;
+
+    padding: 10px;
+    
+
+  }
+  nav.show{
+    display: block;
+
+  }
+
+    nav ul {
+      display: flex;
+      padding: 10px;
+      box-sizing: border-box;
+      flex-direction: column; /*fait en sorte que le menu s'affiche verticalement*/
+      position: absolute; /*fait en sorte que le menue dans le mobile ne soit pas coller a la barre*/
+      background-color: black;
+      
+    }
+  
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      display: block;
+    }
+
+
+  .menu-toggle{
+    display: block;
+  }
+
+   section img {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+
+  }
+  /* redimensionner les tableau des frais */
+   table {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+
+
+  }
+
+  nav ul .show{
+    display: flex;
+  }
+
+  /* cas particulier espace pare */
+   #annonces{
+    display: flex; /*aligne tous elts a la meme ligne*/
+    gap: 8px; /*nous permet d'espacer les contenues(image, text)*/
+    overflow-x: auto; /* permet de faire un defilement horizontal du contenu pour bien voir*/
+    padding: 10px; /*pour ajouter l'espace interne dans la section*/
+    
+  }
+
+}
+  
+
+
+
+/* .menu-toggle {
+      display: none;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: black;
+      color: white;
+      padding: 10px 15px;
+      font-size: 24px;
+      border: none;
+      cursor: pointer;
+      z-index: 1000;
+    } */
+
+
+    /* nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    @media (max-width: 768px) {
+      .menu-toggle {
+        display: block;
+      }
+
+      nav {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav.active {
+        display: flex;
+      }
+    }  */
+
+    /* nav {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      background:black;
+      padding:9px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    @media (max-width: 768px) {
+      .menu-toggle {
+        display: block;
+      }
+
+      nav {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+      }
+    } */

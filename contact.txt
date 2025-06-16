@@ -1,0 +1,6 @@
+Parent : BESOLO <hr> 
+            Enfant : ESTHER<hr>
+            Classe : 0836918034<hr>
+            Objet : Derogation <hr>
+            Message : inscription <hr>
+            Date et heure d'envoi de votre message : 08-06-25 18:46:37
